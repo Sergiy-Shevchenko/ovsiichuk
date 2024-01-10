@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ovsiichuk/static/css/main.7acaea2f.css",
+    "main.js": "/ovsiichuk/static/js/main.7499af15.js",
+    "index.html": "/ovsiichuk/index.html",
+    "main.7acaea2f.css.map": "/ovsiichuk/static/css/main.7acaea2f.css.map",
+    "main.7499af15.js.map": "/ovsiichuk/static/js/main.7499af15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.7499af15.js"
+  ]
+}

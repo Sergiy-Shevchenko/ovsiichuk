@@ -1,0 +1,41 @@
+.container {
+    background-color: rgba(254,205,165, 0.3);
+}
+
+.picture {
+    display: block;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    fill: 254,205,165, 0.3;
+    stroke: 254,205,165, 0.3;
+}
+
+.city,
+.job,
+.name,
+.certificate {
+    font-family: 'Playfair Display', serif;
+    color: #665d52;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+.city {
+font-size: 16px;
+}
+.job {
+    font-size: 26px;
+    margin: 0;
+}
+.name {
+    font-size: 42px;
+    margin: 15px;
+}
+.certificate {
+    font-size: 16px;
+    padding-bottom: 10px ;
+}

@@ -1,0 +1,54 @@
+.container {
+  width: calc(100% - 20px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #665d52;
+  animation: text 15s infinite linear;
+  padding-left: 100%;
+  white-space: nowrap;
+}
+
+@keyframes text {
+    0%{
+      transform: translate(0, 0);
+    }
+    
+    100%{
+      transform: translate(-200%, 0);
+    }
+  }
+
+
+  .text {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%px;
+    
+    text-align: center;
+   margin-top: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px #0000008c;
+    border-radius: 10px;
+    color: #665d52;
+    background-color: azure;
+  }
+
+ 
+
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
+    1px 4px 6px rgba(0, 0, 0, 0.4);
+
+}

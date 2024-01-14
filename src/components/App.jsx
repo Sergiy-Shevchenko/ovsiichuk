@@ -1,19 +1,12 @@
-// import img from '../image/tryzub.svg';
 
-// const Head = () => {
-//   return (
-//     <div className="container">
-//       <img src={img} alt='gerb'/>
-//       <h3 className="city">КИЇВСЬКИЙ МІСЬКИЙ НОТАРІАЛЬНИЙ ОКРУГ</h3>
-//       <h2 className="job">НОТАРІУС</h2>
-//       <h1 className="name">ОВСІЙЧУК Ірина Григорівна</h1>
-//       <h4 className="testimony">Свідоцтво 9690</h4>
-//     </div>
-//   )
-// }
+
 
 import { Head } from "./Header/Head";
-
+import { Hero } from "./Hero/Hero";
+import { Servise } from "./Service/Servise";
+import { Location } from "./Location/Location";
+import { Shedule } from "./Schedule/Schedule";
+// import data from '../components/Service/servises.json'
 export const App = () => {
   return (
   
@@ -28,6 +21,10 @@ export const App = () => {
       // }}
     >
         <Head/>
+        <Hero/>
+        <Servise/>
+        <Location/>
+        <Shedule/>
      
     </div>
   );

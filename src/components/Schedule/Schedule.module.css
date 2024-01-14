@@ -1,0 +1,50 @@
+.container {
+    width: calc(100% / 2 + 20px);
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 30px;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #665d52;
+    text-align: center;
+    margin: 0;
+}
+
+.icon__watch {
+width: 22px;
+height: 22px;
+margin-right: 10px;
+fill: #665d52;
+align-items: center;
+}
+
+.schedule {
+    margin-top: 15px;
+        display: flex;
+}
+.sectson {
+text-align: justify;
+}
+
+.text {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 700;
+        color: #665d52; 
+}
+
+.icon__time {
+    width: 64px;
+    display: block;
+    height: 64px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    fill: #665d52;
+}

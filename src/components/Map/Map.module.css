@@ -19,10 +19,14 @@ iframe {
   text-align: center;
   color: #665d52;
   text-align: center;
+  align-items: center;
 }
 
 .icon__poit {
-    width: 18px;
+    width: 22px;
+       height: 24px;
     margin-right: 5px;
-    height: 22px;
+    margin-top: 8px;
+    fill: #665d52;
+    stroke: #665d52;
 } 

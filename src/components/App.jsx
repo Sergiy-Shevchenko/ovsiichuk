@@ -6,7 +6,8 @@ import { Hero } from "./Hero/Hero";
 import { Servise } from "./Service/Servise";
 import { Location } from "./Location/Location";
 import { Shedule } from "./Schedule/Schedule";
-// import data from '../components/Service/servises.json'
+
+
 export const App = () => {
   return (
   

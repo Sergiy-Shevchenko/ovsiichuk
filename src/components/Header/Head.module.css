@@ -1,5 +1,5 @@
 .container {
-    background-color:#585858;
+    background-color:#363636;
     border: 8px double #DAA520;
     border: 8px double #DCDCDC; 
 }
@@ -38,6 +38,7 @@ font-size: 12px;
 .name {
     font-size: 36px;
     margin: 15px;
+    color: #B8860B;
 }
 .certificate {
     font-size: 12px;

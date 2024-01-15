@@ -1,5 +1,5 @@
 .container {
-    width: calc(100% - 20px);
+    width: 100%;
     height: fit-content;
     margin-top: 20px;
     margin-left: auto;
@@ -17,7 +17,7 @@ iframe {
   font-size: 24px;
   font-weight: 700;
   text-align: center;
-  color: #DCDCDC;
+  color: #e3a404;
   text-align: center;
   align-items: center;
 }
@@ -27,6 +27,6 @@ iframe {
        height: 24px;
     margin-right: 5px;
     margin-top: 8px;
-    fill: #DCDCDC;
-    stroke: #DCDCDC;
+    fill: #e3a404;
+    stroke: #e3a404;
 } 

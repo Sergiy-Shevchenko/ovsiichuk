@@ -17,7 +17,7 @@ iframe {
   font-size: 24px;
   font-weight: 700;
   text-align: center;
-  color: #665d52;
+  color: #DCDCDC;
   text-align: center;
   align-items: center;
 }
@@ -27,6 +27,6 @@ iframe {
        height: 24px;
     margin-right: 5px;
     margin-top: 8px;
-    fill: #665d52;
-    stroke: #665d52;
+    fill: #DCDCDC;
+    stroke: #DCDCDC;
 } 

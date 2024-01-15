@@ -1,52 +1,70 @@
 .container {
-    width: calc(100% - 20px);
-    margin-left: auto;
-    margin-right: auto;
+  width: calc(100% - 20px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list {
-    width: 100%;
-    padding: 0;
-    margin-top: 20px;
-
+  width: 100%;
+  padding: 0;
+  margin-top: 20px;
 }
 
 .item {
-    min-height: 110px;
-    height: min-content;
-    background-color: azure;
-    background-color: rgba(254,205,165, 0.3);
-    list-style-type: none;
-    margin-top: 15px;
-    padding: 3px;
-    border-radius: 10px;
-    border: 4px double #665d52;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
+  min-height: 110px;
+  height: min-content;
+  background-color: azure;
+  background-color: rgba(254, 205, 165, 0.2);
+  background-color: #585858ce;
+  list-style-type: none;
+  margin-top: 15px;
+  padding: 3px;
+  border-radius: 10px;
+  /* border: 4px double #665d52; */
+  border: 4px double #DCDCDC;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
     1px 4px 6px rgba(0, 0, 0, 0.4);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.item:hover {
+    background-color: #484747ce;
+    border: 4px double #f7ba06;
+    
+}
 
+.item:hover .text {
+    color: #f7ba06;
+}
+
+.item:hover .icon__quill {
+    fill: #f7ba06;
+    border: 2px solid #f7ba06;
 }
 
 .icon__quill {
-    display: block;
-    width: 22px;
-height: 22px;
-fill: #665d52;
-align-items: center;
-justify-content: center;
-margin-left: auto;
-margin-right: auto;
-border: 2px solid #665d52;
-border-radius: 50%;
-padding: 2px;
+  display: block;
+  width: 22px;
+  height: 22px;
+  fill: #665d52;
+  fill: #DCDCDC;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #665d52;
+  border: 2px solid #DCDCDC;
+  border-radius: 50%;
+  padding: 2px;
 }
 
-
 .text {
-font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-color: #665d52;
-    text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #665d52;
+  color: #DCDCDC;
+  text-decoration: none;
 }

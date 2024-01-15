@@ -28,10 +28,9 @@ height: 24px;
 .link__phone:focus .icon__phone,
 .link__phone:focus .phone
  {
-    color: rgba(0, 0, 255, 0.772);
-    fill: blue;
-    stroke: blue;
-} 
+    color: #f7ba06;
+    fill: #f7ba06;
+   } 
 
 
 .icon__phone,
@@ -40,14 +39,14 @@ height: 24px;
     width: 18px;
     height: 18px; 
     align-items: center; 
-     fill:  #665d52;
+     fill:  #DCDCDC;
 }
 
 .phone,
 .email {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    color: #665d52;
+    color: #DCDCDC;
 }
 
 /* .phone:hover,
@@ -67,6 +66,6 @@ height: 24px;
 .link__email:hover .icon__email,
 .link__email:focus .email,
 .link__email:focus .icon__email {
-    color: blue;
-    fill: blue;
+    color:#f7ba06;
+    fill: #f7ba06;
 }

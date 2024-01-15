@@ -4,10 +4,7 @@ import css from './Service.module.css';
 const servises = [
   { id: 1, name: 'Реєстр пошкодженого та знищеного майна' },
   { id: 2, name: 'Укладання договорів' },
-  {
-    id: 3,
-    name: 'Державна реєстрація юридичних осіб та фізичних осіб-підприємців',
-  },
+  { id: 3, name: 'Державна реєстрація юридичних осіб та фізичних осіб-підприємців' },
   { id: 4, name: 'Оформлення довіреностей' },
   { id: 5, name: 'Оформлення заяв' },
   { id: 6, name: 'Апостиль' },
@@ -30,7 +27,7 @@ const ServiseList = ({ servis }) => {
   );
 };
 
-export const Servise = ({ data }) => {
+export const Servise = () => {
   return (
     <div className={css.container}>
       <ServiseList servises={servises} />

@@ -1,9 +1,11 @@
 .container {
-    background-color: rgba(254,205,165, 0.3);
-    border: 5px double #2f303a8c;
+    background-color:#585858;
+    border: 8px double #DAA520;
+    border: 8px double #DCDCDC; 
 }
 
 .picture {
+    width: 48px;
     display: block;
     padding-top: 15px;
     margin-left: auto;
@@ -17,7 +19,8 @@
 .name,
 .certificate {
     font-family: 'Playfair Display', serif;
-    color: #665d52;
+    color: #DCDCDC;
+    /* color: #B0C4DE; */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -26,18 +29,18 @@
 
 
 .city {
-font-size: 16px;
+font-size: 12px;
 }
 .job {
-    font-size: 26px;
+    font-size: 22px;
     margin: 0;
 }
 .name {
-    font-size: 42px;
+    font-size: 36px;
     margin: 15px;
 }
 .certificate {
-    font-size: 16px;
+    font-size: 12px;
     padding-bottom: 10px ;
     margin: 5px;
 }

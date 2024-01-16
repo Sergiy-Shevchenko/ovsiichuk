@@ -1,8 +1,7 @@
 .container {
   width: calc(100% - 20px);
   margin-left: auto;
-  margin-right: auto;
-  
+  margin-right: auto;  
 }
 
 .list {
@@ -19,9 +18,10 @@
   background-color: #363636c5;
   list-style-type: none;
   margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 15px;
   border-radius: 10px;
-  /* border: 4px double #665d52; */
   border: 4px double #DCDCDC;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
     1px 4px 6px rgba(0, 0, 0, 0.4);
@@ -30,7 +30,7 @@
 }
 
 .item:hover {
-    background-color: #484747ce;
+    background-color: #484747d0;
     border: 4px double #f7ba06;
     
 }

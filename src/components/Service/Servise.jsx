@@ -14,13 +14,13 @@ const servises = [
   { id: 10, name: 'Завірення копій' },
 ];
 
-const ServiseList = ({ servis }) => {
+const ServiseList = ({ id, name }) => {
   return (
     <ul className={css.list}>
-      {servises.map(servis => (
-        <li className={css.item} key={servis.id}>
+      {servises.map(({id, name}) => (
+        <li className={css.item} key={id}>
           <Icon className={css.icon__quill} id="icon-quill" />
-          <p className={css.text}>{servis.name}</p>
+          <p className={css.text}>{name}</p>
         </li>
       ))}
     </ul>

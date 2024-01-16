@@ -9,7 +9,7 @@ const linkArray = [
     },
     { id: 2,
       name: 'telegram',
-      href: 'https://t.me/simonova_notary',
+      href: 'https://t.me/notary_kyiv_ovsiichuk',
       iconId: 'icon-linck-telegram',
     },
     { id: 3,

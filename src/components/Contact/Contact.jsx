@@ -12,11 +12,11 @@ export const Contact = () => {
           <Icon className={css.icon__phone} id="icon-phone" />
           <p className={css.phone}>+380992460386</p>
         </a>
-      </div>
-      <a className={css.link__email} href="mailto:iovsiichuknotar@gmail.com">
+      </div>      
+         <a className={css.link__email} href="mailto:iovsiichuknotar@gmail.com">
         <Icon className={css.icon__email} id="icon-mail" />
         <p className={css.email}>iovsiichuknotar@gmail.com</p>
-      </a>
+      </a>     
     </div>
   );
 };

@@ -1,71 +1,87 @@
 .section {
-    display: block;
-    width: calc(100% - 20px);
-    margin-left: auto;
-    margin-left: auto;
+  display: block;
+  width: calc(100% - 20px);
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen  and (min-width: 1200px) {
+    width: calc(100% / 3 - 80px);
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 .contact__phone {
- display: flex;
-    width: 100%;
-height: 24px;
-    justify-content: space-around;
-    
+  display: flex;
+  width: 100%;
+  /* height: 24px; */
+  justify-content: space-around;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    /* height: 0; */
+  }
 }
 .link__phone {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    text-decoration: none;
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 1200px) {
+    justify-content: flex-start;
+  }
+
 }
 
 .link__phone:hover .icon__phone,
 .link__phone:hover .phone,
 .link__phone:focus .icon__phone,
-.link__phone:focus .phone
- {
-    color: #f7ba06;
-    fill: #f7ba06;
-   } 
-
+.link__phone:focus .phone {
+  color: #f7ba06;
+  fill: #f7ba06;
+}
 
 .icon__phone,
 .icon__email {
-    margin-right: 10px;
-    width: 18px;
-    height: 18px; 
-    align-items: center; 
-     fill:  #DCDCDC;
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  align-items: center;
+  fill: #dcdcdc;
+  @media screen and (min-width: 1200px) {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 .phone,
 .email {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    color: #DCDCDC;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #dcdcdc;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+  }
 }
 
-/* .phone:hover,
-.email:hover {
-  
-    color: blue;
-} */
-
 .link__email {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    align-items: center; 
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  @media screen and (min-width: 1200px) {
+    justify-content: flex-start;
+  }
 }
 
 .link__email:hover .email,
 .link__email:hover .icon__email,
 .link__email:focus .email,
 .link__email:focus .icon__email {
-    color:#f7ba06;
-    fill: #f7ba06;
+  color: #f7ba06;
+  fill: #f7ba06;
 }

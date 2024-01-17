@@ -1,71 +1,85 @@
-
-
 .container {
-    width: calc(100% - 20px);
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #363636c5;
-    border-radius: 10px;
-    border: 4px double #DCDCDC;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
+  width: calc(100% - 20px);
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #363636c5;
+  border-radius: 10px;
+  border: 4px double #dcdcdc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
-  .container:hover {
-    border: 4px double #f7ba06
-  }
+.container:hover {
+  border: 4px double #f7ba06;
+}
 
-  .container:hover .title,
-  .container:hover .text {
-    color: #f7ba06;
-  }
+.container:hover .title,
+.container:hover .text {
+  color: #f7ba06;
+}
 
-  .container:hover .icon__watch,
-  .container:hover .icon__time {
-    fill: #f7ba06;
-  }
+.container:hover .icon__watch,
+.container:hover .icon__time {
+  fill: #f7ba06;
+}
 
 .title {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    color: #DCDCDC;
-    text-align: center;
-    margin: 0;
-    padding-top: 15px;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #dcdcdc;
+  text-align: center;
+  margin: 0;
+  padding-top: 15px;
 }
 
 .icon__watch {
-width: 22px;
-height: 22px;
-margin-right: 10px;
-fill: #DCDCDC;
-align-items: center;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  fill: #dcdcdc;
+  align-items: center;
 }
 
 .schedule {
-    margin-top: 15px;
-        display: flex;
-        justify-content: center;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 20px;
+  }
 }
 .sectson {
-text-align: justify;
+  text-align: justify;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
 }
 
 .text {
-    font-family: 'Playfair Display', serif;
-    font-size: 16px;
-    font-weight: 700;
-        color: #DCDCDC; 
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #dcdcdc;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+  }
 }
 
 .icon__time {
-    width: 64px;
-    display: block;
-    height: 64px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 20px;
-    fill: #DCDCDC;
+  width: 64px;
+  display: block;
+  height: 64px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  fill: #dcdcdc;
 }

@@ -1,9 +1,11 @@
 .container {
     width: 100%;
+    max-width: 1400px;
     height: fit-content;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 
@@ -24,7 +26,7 @@ iframe {
 
 .icon__poit {
     width: 22px;
-       height: 24px;
+    height: 24px;
     margin-right: 5px;
     margin-top: 8px;
     fill: #e3a404;

@@ -1,47 +1,115 @@
+.head {
+  background-color: #363636;
+ 
+}
 .container {
-    background-color:#363636;
-    border: 8px double #DAA520;
-    border: 8px double #DCDCDC; 
+  max-width: 1400px;
+   border: 8px double #dcdcdc;
+  @media screen and (min-width: 768px) {
+    border: none;
+    display: flex;
+  }
+  @media screen and (min-width: 768px) {
+   margin-left: auto;
+   margin-right: auto;
+  }
+}
+.section {
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 4 * 2);
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc(100% / 4 * 3);
+    display: flex;
+  }
 }
 
 .picture {
-    width: 48px;
+  width: 48px;
+  display: block;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  fill: 254, 205, 165, 0.3;
+  stroke: 254, 205, 165, 0.3;
+  @media screen and (min-width: 768px) {
+    width: 72px;
+  }
+}
+
+.logo {
+  display: none;
+  @media screen and (min-width: 768px) {
+    width: 94px;
+    height: 110px;
     display: block;
-    padding-top: 15px;
+    padding-top: 8px;
+    margin: auto;
+    filter: invert(0.85);
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+}
+
+.title {
+  @media screen and (min-width: 768px) {
+    /* width: calc(100% / 4 * 2); */
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    fill: 254,205,165, 0.3;
-    stroke: 254,205,165, 0.3;
+  }
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 4 * 3);
+    display: block;
+  }
+}
+
+.section__name {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
 }
 
 .city,
 .job,
 .name,
 .certificate {
-    font-family: 'Playfair Display', serif;
-    color: #DCDCDC;
-    /* color: #B0C4DE; */
-    text-align: center;
-    align-items: center;
-    justify-content: center;
- 
+  font-family: 'Playfair Display', serif;
+  color: #dcdcdc;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .city {
-font-size: 12px;
+  font-size: 12px;
 }
 .job {
-    font-size: 22px;
-    margin: 0;
+  font-size: 22px;
+  margin: 0;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+  }
 }
 .name {
-    font-size: 36px;
-    margin: 15px;
-    /* color: #B8860B; */
+  font-size: 36px;
+  margin: 15px;
+  @media screen and (min-width: 768px) {
+    margin: 2px;
+  }
 }
 .certificate {
-    font-size: 12px;
-    padding-bottom: 10px ;
-    margin: 5px;
+  font-size: 12px;
+  padding-bottom: 10px;
+  margin: 5px;
+  @media screen and (min-width: 768px) {
+    margin-top: 7px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+  }
 }

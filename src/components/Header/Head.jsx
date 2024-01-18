@@ -18,7 +18,7 @@ export const Head = () => {
 <div className={css.container}>
       <img className={css.picture} src={img} alt="gerb" />
       <div className={css.section}>
-        <div className={css.notary}>
+        <div className={css.title}>
           <h3 className={css.city}>КИЇВСЬКИЙ МІСЬКИЙ НОТАРІАЛЬНИЙ ОКРУГ</h3>
           <h2 className={css.job}>НОТАРІУС</h2>
          <Name/>

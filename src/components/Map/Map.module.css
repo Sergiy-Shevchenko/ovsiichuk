@@ -1,18 +1,16 @@
 .container {
-    width: 100%;
-    max-width: 1400px;
-    height: fit-content;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    
-
+  width: 100%;
+  max-width: 1400px;
+  height: fit-content;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 iframe {
-    width: 100%;
-    border-radius: 15px;
-    border: none;
+  width: 100%;
+  border-radius: 15px;
+  border: none;
 }
 .title {
   font-family: 'Playfair Display', serif;
@@ -25,10 +23,10 @@ iframe {
 }
 
 .icon__poit {
-    width: 22px;
-    height: 24px;
-    margin-right: 5px;
-    margin-top: 8px;
-    fill: #e3a404;
-    stroke: #e3a404;
-} 
+  width: 22px;
+  height: 24px;
+  margin-right: 5px;
+  margin-top: 8px;
+  fill: #e3a404;
+  stroke: #e3a404;
+}

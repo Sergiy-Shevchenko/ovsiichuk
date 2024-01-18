@@ -13,7 +13,6 @@ export const Shedule = () => {
         <p className={css.text}>Нд - За домовленістю</p>
       </span>
     </div>
-    </div>
-   
+    </div>   
   );
 };

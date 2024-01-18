@@ -24,6 +24,12 @@
   fill: #f7ba06;
 }
 
+.container:hover .text:nth-child(2),
+.container:hover .text:nth-child(2){
+  border-left: 5px solid #f7ba06;
+  border-right: 5px solid #f7ba06;
+}
+
 .title {
   font-family: 'Playfair Display', serif;
   font-size: 24px;
@@ -72,6 +78,18 @@
   @media screen and (min-width: 1200px) {
     font-size: 24px;
   }
+}
+
+.text:nth-child(2) {
+  @media screen and (min-width: 1200px) {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+   border-left: 5px solid #dcdcdc;
+   border-right: 5px solid #dcdcdc;
+  }
+ 
 }
 
 .icon__time {

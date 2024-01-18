@@ -9,7 +9,7 @@ export const Head = () => {
 <div className={css.container}>
       <img className={css.picture} src={img} alt="gerb" />
       <div className={css.section}>
-        <span className={css.title}>
+        <span className={css.header__title}>
           <h3 className={css.city}>КИЇВСЬКИЙ МІСЬКИЙ НОТАРІАЛЬНИЙ ОКРУГ</h3>
           <h2 className={css.job}>НОТАРІУС</h2>
           <span className={css.section__name}>

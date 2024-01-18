@@ -52,7 +52,7 @@
      }
 }
 
-.title {
+.notary {
   @media screen and (min-width: 768px) {
     width: calc(100% / 4 * 2 + 100px);
     display: block;

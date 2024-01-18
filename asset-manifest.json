@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ovsiichuk/static/css/main.88a0b097.css",
-    "main.js": "/ovsiichuk/static/js/main.31ab1938.js",
+    "main.css": "/ovsiichuk/static/css/main.a799658e.css",
+    "main.js": "/ovsiichuk/static/js/main.fc5abca2.js",
     "static/media/bac-4.png": "/ovsiichuk/static/media/bac-4.8bbf7813364a271d2c95.png",
     "static/media/pamoram1.png": "/ovsiichuk/static/media/pamoram1.e9a8412e5d92e587f327.png",
     "static/media/symbol-defs.svg": "/ovsiichuk/static/media/symbol-defs.88a112486e2f1542541be7c2fc5d9ba9.svg",
@@ -9,11 +9,11 @@
     "static/media/ovsiichuk.jpg": "/ovsiichuk/static/media/ovsiichuk.dc2e679d84518e16b8f2.jpg",
     "static/media/tryzub.svg": "/ovsiichuk/static/media/tryzub.4d12c04392ee36264d6a38a035247df3.svg",
     "index.html": "/ovsiichuk/index.html",
-    "main.88a0b097.css.map": "/ovsiichuk/static/css/main.88a0b097.css.map",
-    "main.31ab1938.js.map": "/ovsiichuk/static/js/main.31ab1938.js.map"
+    "main.a799658e.css.map": "/ovsiichuk/static/css/main.a799658e.css.map",
+    "main.fc5abca2.js.map": "/ovsiichuk/static/js/main.fc5abca2.js.map"
   },
   "entrypoints": [
-    "static/css/main.88a0b097.css",
-    "static/js/main.31ab1938.js"
+    "static/css/main.a799658e.css",
+    "static/js/main.fc5abca2.js"
   ]
 }

@@ -36,6 +36,12 @@
 
 }
 
+.link__phone:nth-child(2) {
+    @media screen and (min-width: 1200px) {
+       margin: 8px 0;
+}
+}
+
 .link__phone:hover .icon__phone,
 .link__phone:hover .phone,
 .link__phone:focus .icon__phone,

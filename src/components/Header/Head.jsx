@@ -7,7 +7,7 @@ const Name = () => {
   return (
      <div className={css.section__name}>
             <h1 className={css.name}>ОВСІЙЧУК </h1>
-            <h2 className={css.name}> Ірина Григорівна</h2>
+            <h2 className={css.name}>Ірина Григорівна</h2>
           </div>
   )
 }
@@ -19,10 +19,13 @@ export const Head = () => {
       <img className={css.picture} src={img} alt="gerb" />
       <div className={css.section}>
         <div className={css.title}>
-          <h3 className={css.city}>КИЇВСЬКИЙ МІСЬКИЙ НОТАРІАЛЬНИЙ ОКРУГ</h3>
+          {/* <span className={css.notary}> */}
+            <h3 className={css.city}>КИЇВСЬКИЙ МІСЬКИЙ НОТАРІАЛЬНИЙ ОКРУГ</h3>
           <h2 className={css.job}>НОТАРІУС</h2>
          <Name/>
           <h4 className={css.certificate}>Свідоцтво 9690</h4>
+          {/* </span> */}
+          
         </div>
         <Contact />
       </div>

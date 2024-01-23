@@ -22,7 +22,7 @@ export const Head = () => {
             <h3 className={css.city}>КИЇВСЬКИЙ МІСЬКИЙ НОТАРІАЛЬНИЙ ОКРУГ</h3>
             <h2 className={css.job}>НОТАРІУС</h2>
             <Name />
-            <h4 className={css.certificate}>Свідоцтво 9690</h4>
+            <h4 className={css.certificate}>Свідоцтво №9690</h4>
           </div>
           <Contact />
         </div>

@@ -2,7 +2,9 @@ import { Map } from '../Map/Map';
 import css from './Location.module.css';
 import panoram from '../../image/pamoram1.png';
 
+
 export const Location = () => {
+
   return (
     <div className={css.container}>
       <p className={css.text}>

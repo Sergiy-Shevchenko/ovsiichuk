@@ -88,9 +88,10 @@
     gap: 4px;
   }
   @media screen and (min-width: 1200px) {
-    /* margin-top: 50px; */
     gap: 18px;
     justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 
@@ -174,6 +175,8 @@
   text-decoration: none;
   @media screen and (min-width: 1200px) {
     font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
       }
 }
 

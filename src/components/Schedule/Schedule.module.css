@@ -26,8 +26,10 @@
 
 .container:hover .text:nth-child(2),
 .container:hover .text:nth-child(2) {
-  border-left: 5px solid #f7ba06;
-  border-right: 5px solid #f7ba06;
+  @media screen and (min-width: 1200px) {
+    border-left: 5px solid #f7ba06;
+    border-right: 5px solid #f7ba06;
+  }
 }
 
 .title {

@@ -8,8 +8,7 @@ export const Location = () => {
   return (
     <div className={css.container}>
       <p className={css.text}>
-        м.Київ, вул.Саксаганського, буд 119 Бізнес центр "Botanic Tower", офіс
-        №13
+        м.Київ, вул. Богдана Хмельницького, буд. 40, офіс №5      
       </p>
       <img className={css.img} src={panoram} alt="panoram" />
       <Map />

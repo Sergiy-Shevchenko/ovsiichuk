@@ -9,11 +9,11 @@ import css from './Main.module.css';
 import { LinkComtact } from 'components/Link/LinkContact';
 
 Notiflix.Notify.success(
-  'м.Київ, вул.Саксаганського, буд 119, Бізнес центр "Botanic Tower", офіс №13',
+  'м. Київ, вул. Богдана Хмельницького, буд 40, офіс №5',
   {
     position: 'right-top',
     timeout: 5000,
-    fontSize: '16px',
+    fontSize: '18px',
     cssAnimationDuration: 1500,
     distance: '30px',
     cssAnimationStyle: 'from-right',
